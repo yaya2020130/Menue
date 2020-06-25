@@ -13,7 +13,7 @@
   <title>Menue</title>
 </head>
 <body>
-<section class="menue">
+<section class="menu">
   <!-- Title -->
   <div class="title">
     <h2>our menu</h2>
@@ -21,12 +21,44 @@
   </div>
 
   <!-- filter buttons -->
+  <div class="btn-container">
+    <button type="button" class="filter-btn" data-id="all">all</button>
+    <button type="button" class="filter-btn" data-id="breakfast">
+      breakfast
+    </button>
+    <button type="button" class="filter-btn" data-id="lunch">lunch</button>
+    <button type="button" class="filter-btn" data-id="shakes">
+      shakes
+    </button>
+  </div>
   <!-- menu items -->
   <div class='section-center'>
     <!-- single item -->
-    <article class="menue-item">
-      <img src="menue-item.jpeg"  class= "photo "alt=" menue item"   > 
-      <div class="item_info">
+    <article class="menu-item">
+      <img src="menu-item.jpeg"  class= "photo "alt=" menu item"   > 
+      <div class="item-info">
+        <header>
+          <h4>  buttermilk pancakes</h4>
+          <h4 class="price">$15</h4>
+        </header>
+        <p class="item-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Error consequuntur reprehenderit dolore nam ratione facilis repudiandae, voluptas placeat neque eum minus culpa ducimus commodi nisi accusantium exercitationem nulla veritatis hic?</p>
+       
+      </div>
+    </article>
+    <article class="menu-item">
+      <img src="menu-item.jpeg"  class= "photo "alt=" menu item"   > 
+      <div class="item-info">
+        <header>
+          <h4>  buttermilk pancakes</h4>
+          <h4 class="price">$15</h4>
+        </header>
+        <p class="item-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Error consequuntur reprehenderit dolore nam ratione facilis repudiandae, voluptas placeat neque eum minus culpa ducimus commodi nisi accusantium exercitationem nulla veritatis hic?</p>
+       
+      </div>
+    </article>
+    <article class="menu-item">
+      <img src="menu-item.jpeg"  class= "photo "alt=" menu item"   > 
+      <div class="item-info">
         <header>
           <h4>  buttermilk pancakes</h4>
           <h4 class="price">$15</h4>
@@ -39,6 +71,6 @@
 </section>
 
 
-  
+<script src="app.js"></script>
 </body>
 </html>
